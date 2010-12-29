@@ -9,9 +9,9 @@ package com.zaalabs.utils
 		// More information can be found here:
 		// http://www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf_file_format_spec_v10.pdf
 		// The Reverse index of tag values is especially helpful
-		private const End:uint 					= 0;
-		private const ShowFrame:uint 			= 1;
-		private const SetBackgroundColor:uint 	= 9;
+		private const End:uint                  = 0;
+		private const ShowFrame:uint            = 1;
+		private const SetBackgroundColor:uint   = 9;
 		
 		protected var _stream:ByteArray;
 		protected var _compressedBytes:ByteArray;
